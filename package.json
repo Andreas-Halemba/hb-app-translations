@@ -1,0 +1,39 @@
+{
+  "name": "grunt-hb-app-translations",
+  "description": "The best Grunt plugin ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Andreas-Halemba/hb-app-translations",
+  "author": {
+    "name": "Andreas Halemba",
+    "email": "andreas@hotelbird.de",
+    "url": "http://hotelbird.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Andreas-Halemba/hb-app-translations.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Andreas-Halemba/hb-app-translations/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Andreas-Halemba/hb-app-translations/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
